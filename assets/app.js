@@ -265,5 +265,5 @@ document.addEventListener("DOMContentLoaded",()=>{
   const h=location.hash.replace("#s-","");
   const st=h?SLIDES.findIndex(s=>s.id===h):0;
   render(st>=0?st:0);
-});
+}); 
 })();
