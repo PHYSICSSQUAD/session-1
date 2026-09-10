@@ -372,3 +372,4 @@ window.SECTIONS = [
   {id:"comp", label:"Comprehensive", color:"#fbbf24"},
   {id:"end",  label:"Closing", color:"#22d3ee"}
 ];
+ 
