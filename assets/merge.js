@@ -69,7 +69,7 @@ const R_l1guide = { id:"l1guide", sec:"l1", toc:"Guiding Question", html:`
       ${tip("Explore · In Pairs","With a partner, look at the five time periods you're about to see. For each period, name one device or service from that era that you still use or hear about today. Then predict: which stage changed daily life the most — and why?")}
     </div>
   </div>
-  ${hint("خلّي كل تلاتة يتوقعوا قبل ما تفتح الخط الزمني — التوقع الغلط بيثبّت المعلومة أكتر من الشرح المباشر.")}`};
+ `};
 
 /* ---------- REF 10 · Social Changes (flip cards) ---------- */
 const R_l1social = { id:"l1social", sec:"l1", toc:"2. Social Changes", init:"flip", html:`
@@ -92,7 +92,7 @@ const R_l1social = { id:"l1social", sec:"l1", toc:"2. Social Changes", init:"fli
       <div class="flip-face flip-back"><div class="fdef">A system for making payments using electronic money, QR codes, etc., without using cash.</div><div class="fex">e.g. cards, mobile pay</div></div></div></div>
   </div>
   ${fig("five-changes.jpg","five social changes brought by information technology")}
-  ${hint("اقلب كارت واحد بس وسيبهم يخمّنوا الباقي — بعدين اقلبهم كلهم للمراجعة السريعة في آخر الحصة.")}`};
+  `};
 
 /* ---------- REF 12 · Autonomous driving + Edge ---------- */
 const R_l1auto = { id:"l1auto", sec:"l1", toc:"Autonomous Driving + Edge", init:"edge", html:`
@@ -114,7 +114,7 @@ const R_l1auto = { id:"l1auto", sec:"l1", toc:"Autonomous Driving + Edge", init:
     </div>
   </div>
   ${fig("self-driving.jpg","a self-driving car decides on board using edge computing")}
-  ${hint("قِس بالثواني قدامهم: 0.40 ثانية سحابة مقابل 0.02 ثانية على العربية — الفرق ده هو الفرق بين فرملة وحادثة.")}`};
+  `};
 
 /* ---------- REF 14 · AR / VR ---------- */
 const R_l1arvr = { id:"l1arvr", sec:"l1", toc:"AR / VR", init:"arvr", html:`
@@ -134,7 +134,7 @@ const R_l1arvr = { id:"l1arvr", sec:"l1", toc:"AR / VR", init:"arvr", html:`
     <div class="sim-readout" id="arvrReadout"><b>AR</b> overlays digital information (pins, labels, chat bubbles) on top of the real, camera-seen world.</div>
   </div>
   ${fig("ar-vr.jpg","AR overlays information on reality, VR immerses you in a virtual space")}
-  ${hint("AR = بتضيف على الواقع (فلتر الكاميرا). VR = بتستبدل الواقع (نظارة). الفرق ده بيتسأل عليه كتير.")}`};
+ `};
 
 /* ---------- REF 19 · 1-1 Exercises header ---------- */
 const R_l1ex = { id:"l1quizhead", sec:"l1", toc:"🏁 Lesson 1-1 Quiz", html:`
@@ -171,7 +171,7 @@ const R_l2guide = { id:"l2guide", sec:"l2", toc:"Guiding Question", html:`
     </div>
     <div>${tip("Explore · In Pairs","With a partner, list three tasks a phone or computer does for you that seem to need \"intelligence\" — for example sorting spam, recommending a video, or translating text. Then predict: does the computer follow fixed rules, or does it learn from examples?")}</div>
   </div>
-  ${hint("اسألهم: مين فيكم النهارده استخدم AI من غير ما ياخد باله؟ (الكيبورد اللي بيكمّل الكلمة، فلتر الكاميرا، اقتراحات يوتيوب).")}`};
+ `};
 
 /* ---------- REF 29 · What is AI? ---------- */
 const R_l2define = { id:"l2define", sec:"l2", toc:"What is AI?", html:`
@@ -185,7 +185,7 @@ const R_l2define = { id:"l2define", sec:"l2", toc:"What is AI?", html:`
       <svg viewBox="0 0 200 140"><rect x="10" y="20" width="180" height="100" rx="14" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity=".5"/><circle cx="60" cy="70" r="22" fill="none" stroke="#22d3ee" stroke-width="1.5"/><circle cx="140" cy="70" r="22" fill="none" stroke="#8b5cf6" stroke-width="1.5"/><path d="M82 70h36" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4 4"/><text x="60" y="75" fill="#eaf2ff" font-size="9" text-anchor="middle">Data</text><text x="140" y="75" fill="#eaf2ff" font-size="9" text-anchor="middle">Judgment</text></svg>
     </div>
   </div>
-  ${hint("AI مش حاجة واحدة — دي مظلة كبيرة. ثبّت الكلمة دي قبل ما تدخل على الطبقات.")}`};
+  `};
 
 /* ---------- REF 32 · Machine Learning & Deep Learning ---------- */
 const R_l2ml = { id:"l2ml", sec:"l2", toc:"Machine Learning &amp; Deep Learning", html:`
@@ -200,7 +200,7 @@ const R_l2ml = { id:"l2ml", sec:"l2", toc:"Machine Learning &amp; Deep Learning"
     <div>${tip("Neural network","A system modeled after the workings of nerve cells (neurons) in the human brain. By connecting many components, it learns from data and becomes capable of making complex judgments — the core technology behind recent advances in AI.")}
     ${fig("rules-vs-ml.jpg","hand-written rules versus learning from data")}</div>
   </div>
-  ${hint("الفرق العملي: البرمجة العادية انت بتكتب القاعدة، والـML بتدّيه أمثلة وهو يطلّع القاعدة بنفسه.")}`};
+ `};
 
 /* ---------- الترتيب النهائي ---------- */
 const P = id => OLD[id];
